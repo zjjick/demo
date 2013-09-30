@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{9260a71e-b5b1-4b87-b990-0749838f48f2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{736ad83a-ad08-497b-8fa9-6b1126d7cb04}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{432d1031-4629-4820-8bb6-00ed649a58f4}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="resource\Level">
+      <UniqueIdentifier>{914f9ab5-e900-4cd9-a6da-2ed8d8b39784}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\firstDemo.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font01.fnt">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font01.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font09.fnt">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font09.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level\level1.tmx">
+      <Filter>resource\Level</Filter>
+    </None>
+    <None Include="..\Resources\level\tileSet.PNG">
+      <Filter>resource\Level</Filter>
+    </None>
+    <None Include="..\Resources\me96.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\me48.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level\level2.tmx">
+      <Filter>resource\Level</Filter>
+    </None>
+    <None Include="..\Resources\level\level3.tmx">
+      <Filter>resource\Level</Filter>
+    </None>
+    <None Include="..\Resources\level\des.png">
+      <Filter>resource\Level</Filter>
+    </None>
+    <None Include="..\Resources\box.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level\level4.tmx">
+      <Filter>resource\Level</Filter>
+    </None>
+    <None Include="..\Resources\me48_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\line.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\line1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\line2.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="firstDemo.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NoTouchLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBoxLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MySprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="NoTouchLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBoxLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MySprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

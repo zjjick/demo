@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="30" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="tileSet" tilewidth="20" tileheight="20">
+  <image source="tileSet.PNG" width="120" height="20"/>
+ </tileset>
+ <layer name="layer1" width="45" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-8"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1lEKwCAMA1AZ8/5X3pcwZEzTpilCA/3T+Sij2ltr/cA6KWXWpMyalFmTMmuCmC+gIrNrRizRbsSMJLLnEX1m7PuL9X9GwnZb5ka22zrrLD1nub3zGbUz3Kw7BZnRXnfUPbgyedxZ5rHG4s40j3Wo2zPrWG8OdL3iTmF/e2VWvtfe52Xt956L9ErZ1518WdRvdktm110lqQd3BAP/
+  </data>
+ </layer>
+ <layer name="layer2" width="45" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-9"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1rEKACAIRVGj/v+bo63NiKSH3gNtDvp0yAwAAJzoj2qQB/tGNKUbU+rlVoYZUAN/jhhk5lsZte1lzUx1rvG7gYImLXcALA==
+  </data>
+ </layer>
+ <objectgroup name="object1" width="45" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-10"/>
+  </properties>
+  <object gid="2" x="160" y="500"/>
+  <object gid="2" x="241" y="460"/>
+  <object gid="2" x="421" y="461"/>
+  <object gid="2" x="421" y="381"/>
+  <object gid="2" x="340" y="359"/>
+  <object gid="2" x="181" y="280"/>
+ </objectgroup>
+</map>
